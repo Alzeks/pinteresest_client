@@ -1,0 +1,50 @@
+.postInterAct {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interActIcons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.interActIcons img,
+.interActIcons svg {
+    cursor: pointer;
+}
+
+.postInterAct button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.postInterAct button:hover{
+    background-color: rgb(235, 0, 0);
+}
+.option {
+    position: relative;
+}
+#delete:hover{
+background: #c4c3c3;
+border-radius: 50%;
+}
+
+.deletePin {
+    width: 100px;
+    background: #c4c3c3;
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+}

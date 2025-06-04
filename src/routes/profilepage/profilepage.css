@@ -1,0 +1,91 @@
+.profilePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.userBlock{
+    display: flex;
+    justify-content:space-between;
+    width: 95%;
+    margin-top: 10px;
+    border: 1px solid #e9e9e9;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.userInform{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: auto;
+    gap: 16px;
+}
+
+/* .profileImg{
+    border-radius: 20px;
+    object-fit: cover;
+    
+} */
+.postcontainar{
+    width: 70%;
+    max-height: 600px;
+    display: flex;
+    border: 1px solid #e9e9e9;
+    border-radius: 32px;
+    overflow: hidden; 
+}
+
+.postimg{
+    flex: 1;
+    background-color: #c0a68c;
+}
+.postimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profilUsername{
+    font-weight: 300;
+    color: gray;
+}
+.follow{
+    font-weight: 500;
+}
+.profileInterActions{
+    display: flex;
+align-items: center;
+gap: 16px;
+}
+.profileButtons{
+    display: flex;
+    gap: 16px;
+}
+.profileButtons button{
+    border: none;
+    padding: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 32px
+}
+.profileButtons button:last-child{
+background-color: #c1011e;
+color: white;
+}
+.profileOptions{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.profileOptions span{
+    cursor: pointer;
+    padding: 8px 0px;
+}
+.profileOptions span:hover{
+    color: gray;
+}
+.active{
+    border-bottom: 3px solid black
+}
+

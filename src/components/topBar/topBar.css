@@ -1,0 +1,37 @@
+.topbar {
+    margin: 10px 24px 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logos {
+    width: 150px;
+    height: 20px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1f1;
+    gap: 16px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+input {
+    border: none;
+    flex: 1;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    font-size: large;
+}
+
+@media(max-width: 798px) {
+    .logos {
+        display: none;
+    }
+    .search{gap:0px;padding: 8px;}
+}

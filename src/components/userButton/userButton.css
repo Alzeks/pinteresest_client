@@ -1,0 +1,92 @@
+.userButton {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+}
+
+.userButton img {
+    width: 36px;
+    height: 36px;
+    border: 100%;
+    object-fit: cover;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userButton .arrow {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.userButton .arrow:hover {
+    background: #e6e5e5;
+}
+.authButtons {
+    display: flex;
+    gap: 4px;
+}
+
+.loginLink {
+    background: #f1f1f1;
+    padding: 16px;
+    border-radius: 32px;
+}
+
+.loginLink:hover {
+    background: #dddddd;
+}
+
+.userOptions {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    padding: 16px;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 10;
+    font-size: 14px;
+    box-shadow: 0px, 0px, 4px, 1px rgba(0, 0, 0, 0.117);
+}
+
+.userOption {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.userOption:hover {
+    background-color: #f1f1f1;
+    color: grey;
+}
+
+.userimgupload {
+    width: 92px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 72px;
+    right: 0px;
+    background: rgb(206, 205, 205);
+    border-radius: 10px;
+}
+
+.userimgupload img {
+    cursor: pointer;
+}
+
+@media(max-width: 500px) {
+    .image{
+        display: none;
+    }
+}
